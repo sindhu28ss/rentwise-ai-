@@ -22,10 +22,10 @@ RentWise AI helps tenants get clear, reliable answers to questions like:
 - `“What are my rights during an eviction?”`
 
 It leverages:
-- Retrieval-Augmented Generation (RAG) to retrieve trusted legal content
-- Embeddings to represent document semantics
-- Chroma DB as a vector store
-- Streamlit for an intuitive, chat-based web interface
+- Uses RAG to pull information directly from trusted legal documents
+- Embeds content using a Text Embedding Model and stores it in a Vector Database (Chroma)
+- Leverages an LLM with chat memory and contextual awareness
+- Delivers structured outputs through a friendly Streamlit UI
 
 ## 🧠 Architecture Overview
 
